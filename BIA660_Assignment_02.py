@@ -40,9 +40,9 @@ with open('domains_check_result.csv', 'w',encoding='utf-8') as csv_file2:
     for i in domains_extracted:
         try:
             response = requests.get("http://example"+i)
-            domains_check = {i:response.status_code}
-            print(domains_check)
+            domains_checked = {i:response.status_code}
+            print(domains_checked)
         except RequestException:    # RequestException includes all exceptions
-            domains_check = {i:'error'}
-            print(domains_check)
-        writer.writerow([domains_check])
+            domains_checked = {i:'error'}
+            print(domains_checked)
+        writer.writerow([domains_checked])
