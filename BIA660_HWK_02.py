@@ -3,7 +3,7 @@
 """ 
 Created on Mon Sep 16 00:03:37 2019
 
-@author: jinghaowang
+@author: jinghao Wang
 """
 # import packages
 import requests
