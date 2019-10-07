@@ -2,7 +2,7 @@
 """
 Created on Mon Oct  7 01:26:07 2019
 
-@author: sszz
+@author: Jinghao Wang
 """
 
 import spacy
