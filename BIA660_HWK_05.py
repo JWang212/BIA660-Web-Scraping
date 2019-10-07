@@ -40,7 +40,7 @@ book_parse = str(book_parse).replace("</i>", "")
 #     f.write(book_parse)
 # =============================================================================
 
-# Load large nlp module, convert book into scapy type
+# Load large nlp module; convert book into scapy type.
 nlp = spacy.load("en_core_web_lg")
 text = str(book_parse)
 doc = nlp(text)
@@ -103,10 +103,10 @@ print("The vector representation of the first word in the 15th sentence is " + s
 Result:
 Question1: There're 143854 tokens in Pride And Prejudice.
 Question2: There're 14828 verbs in Pride And Prejudice.
-Question3: The most frequent named entity is [('Elizabeth', 624)].
+Question3: The most frequent named entity is Elizabeth.
 Question4: There're 6141 sentences in Pride And Prejudice.
 Question5: The highest similarity is 0.9883196. 
-Sent1: “I am by no means of the opinion...and not to any disrespect for her.” 
-Sent2: The idea of Mr. Collin,...the honour of calling patroness.
+           Sent1_max: “I am by no means of the opinion...and not to any disrespect for her.” 
+           Sent2_max: The idea of Mr. Collin,...the honour of calling patroness.
 Question6: The vector representation of the first word in the 15th sentence is 4.718869.
 """
