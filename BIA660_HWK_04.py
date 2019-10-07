@@ -4,7 +4,7 @@
 """
 Created on Sun Sep 29 00:39:57 2019
 
-@author: sszz
+@author: Jinghao Wang
 """
 # Import libraries
 import networkx as nx
