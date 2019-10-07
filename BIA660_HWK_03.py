@@ -2,7 +2,7 @@
 """
 Created on Sun Sep 22 10:51:51 2019
 
-@author: sszz
+@author: Jinghao Wang
 """
 
 # Import libraries.
