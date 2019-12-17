@@ -48,10 +48,10 @@ with open ("JEOPARDY_CSV.csv", "r") as f:
         
         docs.append(' '.join(row))
 
-    for word in text:
-        if word not in inverted_idx:
-            inverted_idx[word] = []
-        inverted_idx[word].append(i)
+        for word in text:
+            if word not in inverted_idx:
+                inverted_idx[word] = []
+            inverted_idx[word].append(i)
     
 
 def retrieve(query):
