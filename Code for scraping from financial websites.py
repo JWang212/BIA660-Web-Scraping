@@ -583,37 +583,6 @@ with open(csv_file10, 'w', newline='') as csvfile:
         writer.writerow({'link': i, 'text': j})
         
         
-        
-
-'''
-q1:
-seekingalpha can't show links
-go to other links
-
-q2:
-wsj requires subscription
-go to library.school
-
-q3:
-how to pass robot test
-no good way
-
-q4:
-how to sort by time
-datetime module
-
-q5:
-how to create automatic update script
-cron
-do in a while loop
-
-q6:
-how to do search similarity
-auto spell checking
-
-additional:
-wsj:how to filter irrelavant page
-'''
 
 
 
